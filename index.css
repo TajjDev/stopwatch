@@ -1,0 +1,152 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;    
+    list-style-type: none;    
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(255,255,255,1);
+    font-family: "Fredoka", sans-serif;
+}
+
+.headerTop,.footer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerHeader,.foot{
+    width: inherit;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.banner{    
+    color: white;
+    font-size: 30px;
+}
+.img{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5))
+    ,url(./img/pocket-watch-2031021_1920.jpg);
+    background-size: 200px cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text {
+    padding: 20px;
+    margin-left: 100px;
+    line-height: 60px;
+}
+.text>h4 {
+    font-size: 100px;
+    color: rgba(0, 255, 255,.85);
+}
+.text>span{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.container{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sceenCon{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid rgb(0, 255, 255);
+}
+.screen{
+    display: flex;
+    text-align: center;
+    font-size: 70px;
+}
+.playButtons {
+    display: flex;
+    text-align: center; 
+    font-size: 40px;
+    cursor: pointer;
+}
+.hr{
+    margin: 10px;
+    text-align: center;
+    line-height: 65px;
+}
+.ulFoot{
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+.footer{
+    width: 100%;
+    background-color: rgba(238, 238, 238,.5);
+    cursor: none;
+}
+.cursor{
+    cursor: pointer;
+}
+.ulFoot > li {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.no-point{
+    cursor: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+#size{
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* welcome page */
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-page > img {
+    width: 100px;
+    height: 100px;
+}
+.welcome-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: aqua;
+    background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5));
+}
+
+.welcome-page img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.welcome-page h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    
+}

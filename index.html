@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch Web</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icons8-stop-watch-32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons8-reset-50.png" type="image/x-icon">
+    <link href="https://tenor.com/view/loading-white-screen-spinning-gif-18839165" rel="stylesheet">
+</head>
+<body>
+
+    <div class="welcome-page"></div>
+
+    <div class="main-page">
+        
+    <div class="headerTop">
+        <div class="innerHeader">
+            <div class="logo">SW</div>
+            <div class="menu">
+            <ul>
+                <li>Welcome to the watch</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="img">
+            <div class="text">
+                <h4>We watch </h4>
+                <span> You Time</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">        
+        <div class="sceenCon">
+            <div class="screen" id="display">
+                <div class="hr">
+                    <div>HR</div>
+                    <div id="hrID">00</div>
+                </div>
+                <div class="hr">
+                    <div>MIN</div>
+                    <div id="minID">00</div>
+                </div>
+                <div class="hr">
+                    <div>SEC</div>
+                    <div id="secID">00</div>
+                </div>
+            </div>
+        </div>
+        <div class="playButtons">
+            <div class="hr show hide" id="hr" onclick="startTimer()">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="hr" id="stopHr" onclick="stopTimer()">
+                <i class="fa-solid fa-stop"></i>
+            </div>
+            <div class="hr" id="resetHr" onclick="resetTimer()">
+                <img src="./img/icons8-reset-50.png" alt="" id="size">
+            </div>
+        </div>        
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="ulFoot no-point"><p>&copy;SAIL-2024</p></div>
+            <ul class="ulFoot cursor">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+        <div></div>
+    </div>
+    </div>
+</body>
+</html>
