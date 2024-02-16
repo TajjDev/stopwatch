@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         setTimeout(function () {
             mainPage.style.display = 'flex';
             welcomePage.style.display = 'none';
-        }, 3000);
+        }, 4000);
     }
     // Call the function when the DOM content is loaded
     showWelcomePage();
