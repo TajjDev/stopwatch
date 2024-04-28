@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', ()=> {
+// document.addEventListener('DOMContentLoaded', ()=> {
     // Function to display the welcome page for 3 seconds
 //     function showWelcomePage() {
 //         const welcomePage = document.querySelector('.welcome-page');
