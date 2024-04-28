@@ -1,26 +1,26 @@
 
-// document.addEventListener('DOMContentLoaded', ()=> {
-    // Function to display the welcome page for 3 seconds
-//     function showWelcomePage() {
-//         const welcomePage = document.querySelector('.welcome-page');
-//         welcomePage.innerHTML =
-//          `<body>
-//             <div class="welcome-page">                
-//                 <img src="./img/f2.gif" alt="" style="width: 200px; height: 200px;">
-//             </div>
-//          </body>`
-//         const mainPage = document.querySelector('.main-page');
-//         welcomePage.style.display = 'flex';
-//         mainPage.style.display = 'none';
-//         // Hide the welcome page after 3 seconds and show the main page
-//         setTimeout(function () {
-//             mainPage.style.display = 'flex';
-//             welcomePage.style.display = 'none';
-//         }, 4000);
-//     }
-//     // Call the function when the DOM content is loaded
-//     showWelcomePage();
-// });
+document.addEventListener('DOMContentLoaded', ()=> {
+    Function to display the welcome page for 3 seconds
+    function showWelcomePage() {
+        const welcomePage = document.querySelector('.welcome-page');
+        welcomePage.innerHTML =
+         `<body>
+            <div class="welcome-page">                
+                <img src="./img/f2.gif" alt="" style="width: 200px; height: 200px;">
+            </div>
+         </body>`
+        const mainPage = document.querySelector('.main-page');
+        welcomePage.style.display = 'flex';
+        mainPage.style.display = 'none';
+        // Hide the welcome page after 3 seconds and show the main page
+        setTimeout(function () {
+            mainPage.style.display = 'flex';
+            welcomePage.style.display = 'none';
+        }, 4000);
+    }
+    // Call the function when the DOM content is loaded
+    showWelcomePage();
+});
 
 const playButton = document.getElementById('hr')
 const stopButton = document.getElementById('stopHr')
