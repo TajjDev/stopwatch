@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', ()=> {
-    Function to display the welcome page for 3 seconds
+    // Function to display the welcome page for 3 seconds
     function showWelcomePage() {
         const welcomePage = document.querySelector('.welcome-page');
         welcomePage.innerHTML =
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         setTimeout(function () {
             mainPage.style.display = 'flex';
             welcomePage.style.display = 'none';
-        }, 4000);
+        }, 3000);
     }
     // Call the function when the DOM content is loaded
     showWelcomePage();
